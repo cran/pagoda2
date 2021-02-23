@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.com/kharchenkolab/pagoda2.svg?branch=master)](https://travis-ci.com/github/kharchenkolab/pagoda2)
+[![CRAN status](https://www.r-pkg.org/badges/version/pagoda2)](https://cran.r-project.org/package=pagoda2)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/pagoda2)](https://cran.r-project.org/package=pagoda2)
 
 <img src="https://github.com/kharchenkolab/pagoda2/blob/devel/inst/pagoda_logo.png" align="right" height="140">
 
@@ -15,7 +17,7 @@
 
 Pagoda2 is an R package for analyzing and interactively exploring large-scale single-cell RNA-seq datasets. The methods were optimized to rapidly process modern scRNAseq datasets, which are both large (approximately 1e6 cells or greater) and sparse. The package provides methods for quality control, filtering, clustering, visualization, differential expression, cross-cutting aspects/states, and geneset/pathway overdispersion analysis. The companion frontend application allows users to figure out which gene expression patterns give rise to different subpopulations within the data. The application allows users to inspect the gene expression patterns of subpopulations through annotated gene sets and pathways, including Gene Ontology (GO) categories. Users may also highlight certain clusters and perform differential expression from their browsers via the frontend application. 
 
-Note that `pagoda2` is an R package developed for analyzing standalone scRNAseq datasets. For joint analysis of multiple datasets, please see the package [Conos](https://github.com/kharchenkolab/conos). (The package `pagoda2` is primarily used to preprocess input datasets for Conos.)
+Note that `pagoda2` is an R package developed for analyzing standalone scRNAseq datasets. For joint analysis of multiple datasets, please see the package [conos](https://github.com/kharchenkolab/conos). (The package `pagoda2` is primarily used to preprocess input datasets for conos.)
 
 Several methods within this package were developed based on the originals implemented within [SCDE](http://hms-dbmi.github.io/scde/) and PAGODA1.
 
@@ -36,6 +38,14 @@ Several methods within this package were developed based on the originals implem
 
 ## Installation 
 
+
+To install the stable version from CRAN, use:
+
+```r
+install.packages('pagoda2')
+```
+
+
 To install the latest version of `pagoda2`, use:
 
 ```r
@@ -43,7 +53,7 @@ install.packages('devtools')
 devtools::install_github('kharchenkolab/pagoda2', build_vignettes = TRUE)
 ```
 
-The package `pagoda2` depends on data in a data package (`p2data`) that is available through a `drat` repository on GitHub. To use the `pagoda2` package, you will need to install `p2data`. There are two equally valid options to install this package:
+Please note that the package `pagoda2` depends on data in a data package (`p2data`) that is available through a `drat` repository on GitHub. To use the `pagoda2` package, you will need to install `p2data`. There are two equally valid options to install this package:
 
 A) Users could install `p2data` by adding the `drat` archive to the list of repositories your system will query when adding and updating R packages. Once you do this, you can install `p2data` with `install.packages()`, using the command:
 
@@ -96,7 +106,7 @@ brew update
 brew install curl openssl wget
 ```
 
-As of version 0.1.3, `pagoda2` should sucessfully install on Mac OS. However, if there are issues, please refer to the following wiki page for further instructions on installing `pagoda2` with Mac OS: [Installing `pagoda2` for Mac OS](https://github.com/kharchenkolab/pagoda2/wiki/Installing-Pagoda2-for-Mac-OS)
+As of version 0.1.3, `pagoda2` should sucessfully install on Mac OS. Furthermore, we encourage Mac OS users to install the package via the binaries on CRAN. However, if there are issues, please refer to the following wiki page for further instructions on installing `pagoda2` with Mac OS: [Installing `pagoda2` for Mac OS](https://github.com/kharchenkolab/pagoda2/wiki/Installing-Pagoda2-for-Mac-OS)
 
 
 
@@ -116,7 +126,6 @@ If you find `pagoda2` useful for your publication, please cite:
 
 ```
 Nikolas Barkas, Viktor Petukhov, Peter Kharchenko and Evan
-Biederstedt (2020). pagoda2: Single Cell Analysis and Differential
-Expression. R package version 1.0.0.
-https://github.com/kharchenkolab/pagoda2
+Biederstedt (2021). pagoda2: Single Cell Analysis and Differential
+Expression. R package version 1.0.1.
 ```
