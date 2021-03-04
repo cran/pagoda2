@@ -4,7 +4,7 @@
 
 <img src="https://github.com/kharchenkolab/pagoda2/blob/devel/inst/pagoda_logo.png" align="right" height="140">
 
-# Pagoda2
+# pagoda2
 
 - [Tutorials](#tutorials)
 - [Web Demo of Application](#web-demo-of-application)
@@ -13,7 +13,7 @@
   * [Installing with Mac OS](#installing-with-mac-os)
   * [Pagoda2 via Docker](#pagoda2-via-docker)
 
-## Pagoda2: Rapid Processing and Interactive Analysis of Large Datasets
+## pagoda2: Rapid Processing and Interactive Analysis of Large Datasets
 
 Pagoda2 is an R package for analyzing and interactively exploring large-scale single-cell RNA-seq datasets. The methods were optimized to rapidly process modern scRNAseq datasets, which are both large (approximately 1e6 cells or greater) and sparse. The package provides methods for quality control, filtering, clustering, visualization, differential expression, cross-cutting aspects/states, and geneset/pathway overdispersion analysis. The companion frontend application allows users to figure out which gene expression patterns give rise to different subpopulations within the data. The application allows users to inspect the gene expression patterns of subpopulations through annotated gene sets and pathways, including Gene Ontology (GO) categories. Users may also highlight certain clusters and perform differential expression from their browsers via the frontend application. 
 
@@ -39,7 +39,7 @@ Several methods within this package were developed based on the originals implem
 ## Installation 
 
 
-To install the stable version from CRAN, use:
+To install the stable version from [CRAN](https://CRAN.R-project.org/package=pagoda2), use:
 
 ```r
 install.packages('pagoda2')
@@ -112,13 +112,13 @@ As of version 0.1.3, `pagoda2` should sucessfully install on Mac OS. Furthermore
 
 ### Pagoda2 via Docker 
 
-If you are having trouble setting up `pagoda2` on your system, an alternative approach to work with `pagoda2` is via a Docker container. To use the Docker container, first [install docker](https://docs.docker.com/install/) on your platform and then run the `pagoda2` image with the following command in the shell:
+If you are having trouble setting up `pagoda2` on your system, an alternative approach to work with `pagoda2` is via a Docker container. To use the Docker container, first [install docker](https://docs.docker.com/get-docker/) on your platform and then run the `pagoda2` image with the following command in the shell:
 
 ```
-docker run -p 8787:8787 pkharchenkolab/pagoda2:latest
+docker run -p 8787:8787 -e PASSWORD=pass pkharchenkolab/pagoda2:latest
 ```
 
-The first time you run this command, it will pull/download several images---please make sure that you have reliable internet access. You can then point your browser to http://localhost:8787/ to access an Rstudio environment with `pagoda2` installed (log in using credentials rstudio/pass). Explore the Docker [--mount option](https://docs.docker.com/storage/volumes/) to allow the Docker image to access your local files.
+The first time you run this command, it will pull/download several images---please make sure that you have reliable internet access. You can then point your browser to http://localhost:8787/ to access an Rstudio environment with `pagoda2` installed (please log in using credentials username=`rstudio`, password=`pass`). Explore the Docker [--mount option](https://docs.docker.com/storage/volumes/) to allow the Docker image to access your local files.
 
 ### Citation
 
