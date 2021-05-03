@@ -4,7 +4,7 @@
 
 <img src="https://github.com/kharchenkolab/pagoda2/blob/devel/inst/pagoda_logo.png" align="right" height="140">
 
-# pagoda2
+# Pagoda2
 
 - [Tutorials](#tutorials)
 - [Web Demo of Application](#web-demo-of-application)
@@ -13,7 +13,7 @@
   * [Installing with Mac OS](#installing-with-mac-os)
   * [Pagoda2 via Docker](#pagoda2-via-docker)
 
-## pagoda2: Rapid Processing and Interactive Analysis of Large Datasets
+## Pagoda2: Rapid Processing and Interactive Analysis of Large Datasets
 
 Pagoda2 is an R package for analyzing and interactively exploring large-scale single-cell RNA-seq datasets. The methods were optimized to rapidly process modern scRNAseq datasets, which are both large (approximately 1e6 cells or greater) and sparse. The package provides methods for quality control, filtering, clustering, visualization, differential expression, cross-cutting aspects/states, and geneset/pathway overdispersion analysis. The companion frontend application allows users to figure out which gene expression patterns give rise to different subpopulations within the data. The application allows users to inspect the gene expression patterns of subpopulations through annotated gene sets and pathways, including Gene Ontology (GO) categories. Users may also highlight certain clusters and perform differential expression from their browsers via the frontend application. 
 
@@ -39,7 +39,7 @@ Several methods within this package were developed based on the originals implem
 ## Installation 
 
 
-To install the stable version from [CRAN](https://CRAN.R-project.org/package=pagoda2), use:
+To install the stable version from CRAN, use:
 
 ```r
 install.packages('pagoda2')
@@ -51,32 +51,6 @@ To install the latest version of `pagoda2`, use:
 ```r
 install.packages('devtools')
 devtools::install_github('kharchenkolab/pagoda2', build_vignettes = TRUE)
-```
-
-Please note that the package `pagoda2` depends on data in a data package (`p2data`) that is available through a `drat` repository on GitHub. To use the `pagoda2` package, you will need to install `p2data`. There are two equally valid options to install this package:
-
-A) Users could install `p2data` by adding the `drat` archive to the list of repositories your system will query when adding and updating R packages. Once you do this, you can install `p2data` with `install.packages()`, using the command:
-
-```r
-library(drat)
-addRepo("kharchenkolab")
-install.packages("p2data")
-```
-
-The following command is also a valid approach:
-
-```r
-install.packages('p2data', repos='https://kharchenkolab.github.io/drat/', type='source')
-```
-
-Please see the [drat documentation](https://dirk.eddelbuettel.com/code/drat.html) for more comprehensive explanations and vignettes.
-
-
-B) Another way to install the package `p2data` is to use `devtools::install_github()`:
-
-```r
-library(devtools)
-install_github("kharchenkolab/p2data")
 ```
 
 
@@ -115,10 +89,10 @@ As of version 0.1.3, `pagoda2` should sucessfully install on Mac OS. Furthermore
 If you are having trouble setting up `pagoda2` on your system, an alternative approach to work with `pagoda2` is via a Docker container. To use the Docker container, first [install docker](https://docs.docker.com/get-docker/) on your platform and then run the `pagoda2` image with the following command in the shell:
 
 ```
-docker run -p 8787:8787 -e PASSWORD=pass pkharchenkolab/pagoda2:latest
+docker run -p 8787:8787 pkharchenkolab/pagoda2:latest
 ```
 
-The first time you run this command, it will pull/download several images---please make sure that you have reliable internet access. You can then point your browser to http://localhost:8787/ to access an Rstudio environment with `pagoda2` installed (please log in using credentials username=`rstudio`, password=`pass`). Explore the Docker [--mount option](https://docs.docker.com/storage/volumes/) to allow the Docker image to access your local files.
+The first time you run this command, it will pull/download several images---please make sure that you have reliable internet access. You can then point your browser to http://localhost:8787/ to access an Rstudio environment with `pagoda2` installed (log in using credentials rstudio/pass). Explore the Docker [--mount option](https://docs.docker.com/storage/volumes/) to allow the Docker image to access your local files.
 
 ### Citation
 
