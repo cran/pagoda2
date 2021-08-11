@@ -11,7 +11,7 @@
 - [Installation](#installation)
   * [Installing Linux Dependencies](#installing-linux-dependencies)
   * [Installing with Mac OS](#installing-with-mac-os)
-  * [Pagoda2 via Docker](#pagoda2-via-docker)
+  * [pagoda2 via Docker](#pagoda2-via-docker)
 
 ## pagoda2: Rapid Processing and Interactive Analysis of Large Datasets
 
@@ -26,7 +26,7 @@ Several methods within this package were developed based on the originals implem
 
 **Basic Walkthrough**
 * [HTML version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kharchenkolab/pagoda2/master/doc/pagoda2.walkthrough.html) 
-* [Markdown version](https://github.com/kharchenkolab/pagoda2/blob/master/vignettes/pagoda2.walkthrough.md)
+* [Markdown version](https://github.com/kharchenkolab/pagoda2/blob/master/doc/pagoda2.walkthrough.md)
 
 [PCA-based Basic Walkthrough](http://pklab.med.harvard.edu/peterk/p2/walkthrough.nb.html)
 
@@ -39,7 +39,7 @@ Several methods within this package were developed based on the originals implem
 ## Installation 
 
 
-To install the stable version from [CRAN](https://CRAN.R-project.org/package=pagoda2), use:
+To install the stable version from CRAN, use:
 
 ```r
 install.packages('pagoda2')
@@ -50,7 +50,7 @@ To install the latest version of `pagoda2`, use:
 
 ```r
 install.packages('devtools')
-devtools::install_github('kharchenkolab/pagoda2', build_vignettes = TRUE)
+devtools::install_github('kharchenkolab/pagoda2')
 ```
 
 
@@ -89,10 +89,10 @@ As of version 0.1.3, `pagoda2` should sucessfully install on Mac OS. Furthermore
 If you are having trouble setting up `pagoda2` on your system, an alternative approach to work with `pagoda2` is via a Docker container. To use the Docker container, first [install docker](https://docs.docker.com/get-docker/) on your platform and then run the `pagoda2` image with the following command in the shell:
 
 ```
-docker run -p 8787:8787 -e PASSWORD=pass pkharchenkolab/pagoda2:latest
+docker run -p 8787:8787 pkharchenkolab/pagoda2:latest
 ```
 
-The first time you run this command, it will pull/download several images---please make sure that you have reliable internet access. You can then point your browser to http://localhost:8787/ to access an Rstudio environment with `pagoda2` installed (please log in using credentials username=`rstudio`, password=`pass`). Explore the Docker [--mount option](https://docs.docker.com/storage/volumes/) to allow the Docker image to access your local files.
+The first time you run this command, it will pull/download several images---please make sure that you have reliable internet access. You can then point your browser to http://localhost:8787/ to access an Rstudio environment with `pagoda2` installed (log in using credentials rstudio/pass). Explore the Docker [--mount option](https://docs.docker.com/storage/volumes/) to allow the Docker image to access your local files.
 
 ### Citation
 
@@ -101,5 +101,5 @@ If you find `pagoda2` useful for your publication, please cite:
 ```
 Nikolas Barkas, Viktor Petukhov, Peter Kharchenko and Evan
 Biederstedt (2021). pagoda2: Single Cell Analysis and Differential
-Expression. R package version 1.0.4.
+Expression. R package version 1.0.5.
 ```

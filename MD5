@@ -1,4 +1,4 @@
-625ce5aa7cdc890bab50b04bce547c11 *DESCRIPTION
+f0356defc9fecc9be11b09de53deddd9 *DESCRIPTION
 67d596cb93c93d2772bf87b49927d2b5 *NAMESPACE
 230c24031a20de184f3d1c4a1ad82cc9 *R/Pagoda2.R
 9c01cff3f6123cf10f1c38e29f28abbe *R/RcppExports.R
@@ -11,12 +11,8 @@ dfdfbe05e602780b0e888414a505986e *R/pagoda2WebApp.R
 5d148edc015910433fedfe3bc0bce69e *R/pagodaWebHelpers.R
 8a1f6b7347e6e84abac7526fc5d8d4cb *R/pagodaWebSelections.R
 c76378d073d54713121337d0f33564ae *R/pipelineHelpers.R
-dca624d9cf41325140191d62e0a2ebcd *README.md
-63cc4c534437c81f0644580c3f32718e *build/vignette.rds
+5240941d5508e911f9b2b4db30c53ead *README.md
 c89410ea75158716b64af5fb7af33345 *inst/COPYRIGHTS
-49a34ce8fa7197cdba903cf4347020cd *inst/doc/pagoda2.walkthrough.R
-41b0167e0d5f57a9e58587d37fddc377 *inst/doc/pagoda2.walkthrough.Rmd
-ea097fa0bf56de90ec5bffa198092459 *inst/doc/pagoda2.walkthrough.html
 690f049bd22c64d6a9068adb4dd914c9 *inst/extdata/sample_BM1_50.rds
 fd98edd0f664468cb6ea5a114a3758f9 *inst/pagoda2.Rmd
 c8df4a1ab07a528510ad587e9f9a3e29 *inst/pagoda_logo.png
@@ -173,17 +169,3 @@ cd776056dbab0a5378d9d9be53e82f6b *src/largeVis.cpp
 5e7bffdf49ce11f71e77fa9037d7d7c4 *src/rank.cpp
 ac14918ba2fd770d2ebde4caec44a4a1 *tests/testthat.R
 b59e2b2b6d377ee260864b371318bbe4 *tests/testthat/test_functions.R
-b8e2494670f10269e8f0635d8e737940 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-10-1.png
-43f452722ef8ab73fb4f494e8e5eb6d1 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-11-1.png
-a1b1232c8c99caa7f1ca2cc93561bd8b *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-14-1.png
-233c76ec8352c476d7a41982307fa146 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-19-1.png
-4fe3e6eb48507c362139108725f1ce55 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-20-1.png
-ecaf772bc0bbbbb563edeb341ddb1654 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-21-1.png
-824e064dcdc76a73c84bd5c4679a93c4 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-22-1.png
-78e3f45d7a969b245adba92f15030252 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-25-1.png
-5e698ef1b24bd7e72442493d4fdf8ac6 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-27-1.png
-46a93f63eabdbc8893705b19e100e62b *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-28-1.png
-6405c5fda405b0c7d0d8ff13102f4dc4 *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-9-1.png
-0cd59455d016d8bec14da658098990ec *vignettes/figure_pagoda2_walkthrough/unnamed-chunk-9-2.png
-41b0167e0d5f57a9e58587d37fddc377 *vignettes/pagoda2.walkthrough.Rmd
-aca5250fdb99da4192afd7d3c1f13ae6 *vignettes/pagoda2.walkthrough.md
