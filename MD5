@@ -1,4 +1,4 @@
-c5c25a3cd778838b47a644a19cfeeb56 *DESCRIPTION
+cc39a68985a40fa38344644f8e520dd9 *DESCRIPTION
 67d596cb93c93d2772bf87b49927d2b5 *NAMESPACE
 230c24031a20de184f3d1c4a1ad82cc9 *R/Pagoda2.R
 9c01cff3f6123cf10f1c38e29f28abbe *R/RcppExports.R
@@ -11,7 +11,7 @@ dfdfbe05e602780b0e888414a505986e *R/pagoda2WebApp.R
 5d148edc015910433fedfe3bc0bce69e *R/pagodaWebHelpers.R
 8a1f6b7347e6e84abac7526fc5d8d4cb *R/pagodaWebSelections.R
 c76378d073d54713121337d0f33564ae *R/pipelineHelpers.R
-0a393344ba809df0232efc60232b17f1 *README.md
+dbbb2b86163e3c02fb1b1706bf13017e *README.md
 c89410ea75158716b64af5fb7af33345 *inst/COPYRIGHTS
 690f049bd22c64d6a9068adb4dd914c9 *inst/extdata/sample_BM1_50.rds
 fd98edd0f664468cb6ea5a114a3758f9 *inst/pagoda2.Rmd
@@ -26,7 +26,7 @@ c8df4a1ab07a528510ad587e9f9a3e29 *inst/pagoda_logo.png
 a8908aed3b6a9d4e66e3a4eebb1c1183 *inst/rookServerDocs/js/RemoteFileReader.js
 fe6641cd65c0bd935098670b53ec7262 *inst/rookServerDocs/js/actionPanelUIcontroller.js
 a5bcc8aa260a1e4febf387d86e50c027 *inst/rookServerDocs/js/aspectHeatmapViewer.js
-3fc5913b634154ee5430deeecaaee1e7 *inst/rookServerDocs/js/aspectsTableViewer.js
+c8f96dcd18a7b0df83c684ed9f21865e *inst/rookServerDocs/js/aspectsTableViewer.js
 63f1025788c57ad2aa185059d0c6ebc2 *inst/rookServerDocs/js/calculationController.js
 5bbeec9ef9c5e98e7545d59f84cf5420 *inst/rookServerDocs/js/cellSelectionController.js
 1798b6bc17dac9dde7653515ee86f879 *inst/rookServerDocs/js/cellSelectionUIcontroller.js
@@ -43,7 +43,7 @@ dcf4cdf0f81a3bc24fcd19e16d70251d *inst/rookServerDocs/js/eventBus.js
 cbf38f7aa2fe604ef5cfcdbdab3dea23 *inst/rookServerDocs/js/geneSelectionController.js
 e241f79c34319a9595370776ccc1bc1a *inst/rookServerDocs/js/geneSelectionTableViewer.js
 c8970db75ceee39f32b2e97357bcbd11 *inst/rookServerDocs/js/geneSelectionUIcontroller.js
-19a48f23cab27b3a389bc549f0a7806b *inst/rookServerDocs/js/geneSetsTableViewer.js
+93afbdf4426dfb55cff5273879a3dba0 *inst/rookServerDocs/js/geneSetsTableViewer.js
 8c47c79b6fc2881ff22748b62a6a8594 *inst/rookServerDocs/js/geneTableViewer.js
 6987b3e93eaa0bf8eb9030c646dbeb27 *inst/rookServerDocs/js/graphViewer.js
 c5fde5fdaec34ee4de8961a368cec903 *inst/rookServerDocs/js/hclust.js
@@ -55,7 +55,7 @@ b25c43b0df51b21c09ac4d41e74f3fc3 *inst/rookServerDocs/js/odGeneTableViewer.js
 f6594ffd80566b92dcd88d39a6efd07e *inst/rookServerDocs/js/p2FileReader.js
 61962c4dcc2880edd59808a3a7e33edc *inst/rookServerDocs/js/p2FormatReader.js
 d1063c57f8afd952b65b13503a8ae9f6 *inst/rookServerDocs/js/p2globalParams.js
-2081bfdc2de60ddc42062335a5b2a9d0 *inst/rookServerDocs/js/pagoda2frontend.js
+1b0337f8ac669cc9142a42e358168d98 *inst/rookServerDocs/js/pagoda2frontend.js
 fa17344ee83330c14dccad0a5093db7d *inst/rookServerDocs/js/pagodaHelper.js
 db5c0709e12217abc6fc9b39e34b6839 *inst/rookServerDocs/js/paletteManager.js
 44d80b335acc425292682edd21391911 *inst/rookServerDocs/js/pointInPolygon.js

@@ -25,8 +25,8 @@ Several methods within this package were developed based on the originals implem
 ## Tutorials
 
 **Basic Walkthrough**
-* [HTML version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kharchenkolab/pagoda2/master/doc/pagoda2.walkthrough.html) 
-* [Markdown version](https://github.com/kharchenkolab/pagoda2/blob/master/doc/pagoda2.walkthrough.md)
+* [HTML version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kharchenkolab/pagoda2/main/doc/pagoda2.walkthrough.html) 
+* [Markdown version](https://github.com/kharchenkolab/pagoda2/blob/main/doc/pagoda2.walkthrough.md)
 
 [PCA-based Basic Walkthrough](http://pklab.med.harvard.edu/peterk/p2/walkthrough.nb.html)
 
@@ -101,5 +101,5 @@ If you find `pagoda2` useful for your publication, please cite:
 ```
 Nikolas Barkas, Viktor Petukhov, Peter Kharchenko and Evan
 Biederstedt (2021). pagoda2: Single Cell Analysis and Differential
-Expression. R package version 1.0.6.
+Expression. R package version 1.0.7.
 ```
