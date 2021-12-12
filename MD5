@@ -1,4 +1,4 @@
-cc39a68985a40fa38344644f8e520dd9 *DESCRIPTION
+28ec4553f48bcc146c197a28dd978ccf *DESCRIPTION
 67d596cb93c93d2772bf87b49927d2b5 *NAMESPACE
 230c24031a20de184f3d1c4a1ad82cc9 *R/Pagoda2.R
 9c01cff3f6123cf10f1c38e29f28abbe *R/RcppExports.R
@@ -11,7 +11,7 @@ dfdfbe05e602780b0e888414a505986e *R/pagoda2WebApp.R
 5d148edc015910433fedfe3bc0bce69e *R/pagodaWebHelpers.R
 8a1f6b7347e6e84abac7526fc5d8d4cb *R/pagodaWebSelections.R
 c76378d073d54713121337d0f33564ae *R/pipelineHelpers.R
-dbbb2b86163e3c02fb1b1706bf13017e *README.md
+15a663b8676990e42258c13a3fce1355 *README.md
 c89410ea75158716b64af5fb7af33345 *inst/COPYRIGHTS
 690f049bd22c64d6a9068adb4dd914c9 *inst/extdata/sample_BM1_50.rds
 fd98edd0f664468cb6ea5a114a3758f9 *inst/pagoda2.Rmd
@@ -26,7 +26,7 @@ c8df4a1ab07a528510ad587e9f9a3e29 *inst/pagoda_logo.png
 a8908aed3b6a9d4e66e3a4eebb1c1183 *inst/rookServerDocs/js/RemoteFileReader.js
 fe6641cd65c0bd935098670b53ec7262 *inst/rookServerDocs/js/actionPanelUIcontroller.js
 a5bcc8aa260a1e4febf387d86e50c027 *inst/rookServerDocs/js/aspectHeatmapViewer.js
-c8f96dcd18a7b0df83c684ed9f21865e *inst/rookServerDocs/js/aspectsTableViewer.js
+4bba852d20bfaa363a5347a060744e95 *inst/rookServerDocs/js/aspectsTableViewer.js
 63f1025788c57ad2aa185059d0c6ebc2 *inst/rookServerDocs/js/calculationController.js
 5bbeec9ef9c5e98e7545d59f84cf5420 *inst/rookServerDocs/js/cellSelectionController.js
 1798b6bc17dac9dde7653515ee86f879 *inst/rookServerDocs/js/cellSelectionUIcontroller.js
