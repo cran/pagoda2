@@ -900,9 +900,22 @@ Pagoda2 <- R6::R6Class("Pagoda2", lock_objects=FALSE,
     getDifferentialGenes=function(type='counts', clusterType=NULL, groups=NULL, name='customClustering', z.threshold=3, upregulated.only=FALSE, verbose=FALSE, append.specificity.metrics=TRUE, append.auc=FALSE) {
       # restrict counts to the cells for which non-NA value has been specified in groups
       if (is.null(groups)) {
+        ## # look up the clustering based on a specified type
+        ## if (is.null(clusterType)) {
+        ##  # take the last clustering generated
+        ##  cols <- self$clusters[[type]][[length(self$clusters[[type]])]]
+        ##  if (is.null(cols)) { 
+        ##    stop("Clustering ",clusterType," for type ", type," doesn't exist")
+        ##  }
+        ## } else {
+        ##  cols <- self$clusters[[type]][[clusterType]]
+        ##  if (is.null(cols)) { 
+        ##    stop("Clustering ",clusterType," for type ", type," doesn't exist")
+        ##  }
+        ## }
         # look up the clustering based on a specified type
         if (is.null(clusterType)) {
-          # take the last clustering generated
+          # take the 
           cols <- self$clusters[[type]][[length(self$clusters[[type]])]]
           if (is.null(cols)) { 
             stop("Clustering ",clusterType," for type ", type," doesn't exist")
@@ -1006,8 +1019,7 @@ Pagoda2 <- R6::R6Class("Pagoda2", lock_objects=FALSE,
       } else {
         self$diffgenes[[type]][[name]] <- ds
       }
-
-      invisible(ds)
+      return(ds)
     },
 
 
