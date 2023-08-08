@@ -1,6 +1,6 @@
-4e497bed3a221387e43a50169dc239e4 *DESCRIPTION
+459c0be5254865c895999268e0d20918 *DESCRIPTION
 67d596cb93c93d2772bf87b49927d2b5 *NAMESPACE
-2a330bccd4473dba108fbf039ad3c7b1 *R/Pagoda2.R
+00a624e87f02e8404df1ca2f2139515e *R/Pagoda2.R
 9c01cff3f6123cf10f1c38e29f28abbe *R/RcppExports.R
 1657a7ddd1efece537ede751779808fe *R/cell.scoring.R
 526597070facd930f2ac14c251341693 *R/helpers.R
@@ -11,7 +11,7 @@ dfdfbe05e602780b0e888414a505986e *R/pagoda2WebApp.R
 5d148edc015910433fedfe3bc0bce69e *R/pagodaWebHelpers.R
 8a1f6b7347e6e84abac7526fc5d8d4cb *R/pagodaWebSelections.R
 c76378d073d54713121337d0f33564ae *R/pipelineHelpers.R
-1d4958fa1613e0287569502f5245ad8c *README.md
+fced4120f37a6b6175a9dd5c0f909b64 *README.md
 c89410ea75158716b64af5fb7af33345 *inst/COPYRIGHTS
 690f049bd22c64d6a9068adb4dd914c9 *inst/extdata/sample_BM1_50.rds
 fd98edd0f664468cb6ea5a114a3758f9 *inst/pagoda2.Rmd
@@ -151,8 +151,8 @@ d5df6e859513f7dc2f3c4062068d1a75 *man/validateSelectionsObject.Rd
 fe51d0cd8d9687626aa09145d1a777d8 *man/winsorize.matrix.Rd
 a36670d70eb85ffa83a170ac25e7b984 *man/writeGenesAsPagoda2Selection.Rd
 448be103001cc867497f9a9d9c72bb4a *man/writePagoda2SelectionFile.Rd
-fee3be7c13b065c9b1a8ae5f99cd02b4 *src/Makevars
-930752b6396b907b22b50b89583eeafa *src/Makevars.win
+2d0b318a7ee8fe71f8897bc2ec8df4bc *src/Makevars
+5adfde5596db9a3aef18e3b38eb89b92 *src/Makevars.win
 6582320d7e1f311f3cc9fd2f9a3cd1ff *src/RcppExports.cpp
 c8e15c74a756dc05af7abaf3beaaf047 *src/binaryExport.cpp
 53980055ee9a69c386e7c89e6cadbf56 *src/checkfunctions.cpp
