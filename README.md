@@ -19,7 +19,7 @@ Pagoda2 is an R package for analyzing and interactively exploring large-scale si
 
 Note that `pagoda2` is an R package developed for analyzing standalone scRNAseq datasets. For joint analysis of multiple datasets, please see the package [conos](https://github.com/kharchenkolab/conos). (The package `pagoda2` is primarily used to preprocess input datasets for conos.)
 
-Several methods within this package were developed based on the originals implemented within [SCDE](http://hms-dbmi.github.io/scde/) and PAGODA1.
+Several methods within this package were developed based on the originals implemented within [SCDE](https://hms-dbmi.github.io/scde/) and PAGODA1.
 
 
 ## Tutorials
@@ -28,12 +28,12 @@ Several methods within this package were developed based on the originals implem
 * [HTML version](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kharchenkolab/pagoda2/main/doc/pagoda2.walkthrough.html) 
 * [Markdown version](https://github.com/kharchenkolab/pagoda2/blob/main/doc/pagoda2.walkthrough.md)
 
-[PCA-based Basic Walkthrough](http://pklab.med.harvard.edu/peterk/p2/walkthrough.nb.html)
+[PCA-based Basic Walkthrough](https://pklab.med.harvard.edu/peterk/p2/walkthrough.nb.html)
 
 
 ## Web Demo of Application
 
-[10X PBMC Dataset](https://tinyurl.com/demopagoda2)
+[10X PBMC Dataset](https://www.youtube.com/watch?v=xzpG1ZYE4Og)
 
 
 ## Installation 
@@ -101,5 +101,5 @@ If you find `pagoda2` useful for your publication, please cite:
 ```
 Nikolas Barkas, Viktor Petukhov, Peter Kharchenko, Simon Steiger, 
 Rasmus Rydbirk, and Evan Biederstedt (2021). pagoda2: Single Cell 
-Analysis and Differential Expression. R package version 1.0.11.
+Analysis and Differential Expression. R package version 1.0.12.
 ```
