@@ -1,4 +1,4 @@
-ba6ac8489d0c07da63de3d96d46a61db *DESCRIPTION
+5e5c491a27899c01f449b9c3fb92e3b6 *DESCRIPTION
 67d596cb93c93d2772bf87b49927d2b5 *NAMESPACE
 5f1ea273bfbf9a5a34b70c94ae677e3a *R/Pagoda2.R
 9c01cff3f6123cf10f1c38e29f28abbe *R/RcppExports.R
@@ -11,7 +11,7 @@ dfdfbe05e602780b0e888414a505986e *R/pagoda2WebApp.R
 5d148edc015910433fedfe3bc0bce69e *R/pagodaWebHelpers.R
 8a1f6b7347e6e84abac7526fc5d8d4cb *R/pagodaWebSelections.R
 c76378d073d54713121337d0f33564ae *R/pipelineHelpers.R
-4fc28f78e59650c40719f3f94e5222ed *README.md
+0aa90bcc9d9734d3cc67f5f2de1e9f5a *README.md
 c89410ea75158716b64af5fb7af33345 *inst/COPYRIGHTS
 690f049bd22c64d6a9068adb4dd914c9 *inst/extdata/sample_BM1_50.rds
 fd98edd0f664468cb6ea5a114a3758f9 *inst/pagoda2.Rmd
